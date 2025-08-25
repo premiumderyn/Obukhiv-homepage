@@ -1,0 +1,103 @@
+body {
+    font-family: "Sansation", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+.hero {
+    margin: 0px;
+    background-image: url("image/main_photo_imresizer.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    color: white;
+    overflow: hidden;  /* helps to work with inner div*/
+}
+.mainContent {
+    overflow: hidden; 
+    background-color: #F1FAEE;
+}
+.infoCity { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 75px;
+    padding-bottom: 40px;
+}
+.roundImg {
+    display: block;
+    margin: 0px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+h1, h2, h3 {
+    text-align: center;
+}
+h1 {
+    font-weight: 700;
+    
+}
+h4, p {
+    text-align: center;
+    font-weight: 300;
+}
+.town-name {
+    margin: 225px auto 0px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background: #2f4b50;
+    width: 310px;
+    font-size: 3em;
+}
+.town-inviting {
+    text-align: center;
+    width: 425px;
+    height: auto;
+    border-radius: 10px;
+    margin: 30px auto 0px auto;
+    background: #8BB3DC;
+    padding: 10px;
+}
+#head-activities {
+    margin-top: 50px;
+}
+
+.guide-card {
+    padding: 10px;
+    background-color: #88CCF1;
+    display: flex;
+    justify-content: space-around;
+    margin: 75px auto 50px auto;
+    width: 450px;
+    height: 330px;
+    border-radius: 10px;
+    align-items: center;
+    border-bottom: 7px solid black;
+    color: #1D3557;
+}
+.left-side {
+    display: block;
+    margin: 0px auto;
+    width: auto;
+}
+.card-image{
+    width: 200px;
+    border-radius: 10px;
+}
+.card-text{
+    display: block;
+    margin: -50px auto 0px auto;
+    width: auto;
+}
+.guide-text {
+    margin-bottom: 50px;
+}
+#italic-text{
+    font-weight: 100;
+    font-style: italic;
+}
+.bold-text {
+    font-weight: 700;
+}
